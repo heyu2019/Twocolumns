@@ -1,0 +1,29 @@
+.twocolumns {
+    display: grid;
+    grid: 40px 400px 40px / 200px 1fr;
+}
+
+header {
+    background: red;
+    grid-area: 1/1/2/3;
+    padding: 10px;
+    height: ;
+}
+
+aside {
+    background: yellow;
+    grid-area: 2/1/3/2;
+    padding: 10px;
+}
+
+main {
+    background: pink;
+    grid-area: 2/2/3/3;
+    padding: 10px;
+}
+
+footer {
+    background: green;
+    grid-area: 3/1/4/3;
+    padding: 10px;
+}
